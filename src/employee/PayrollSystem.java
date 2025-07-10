@@ -30,7 +30,7 @@ class PayrollSystem {
 
     public void displayEmployees() {
         for(Employee employee : employeeList) {
-            System.out.println(employee.toString());
+            System.out.println(employee);
         }
     }
 
